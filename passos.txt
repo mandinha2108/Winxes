@@ -7,5 +7,4 @@ dotnet new mvc -o Winxes
 
 execultar o projeto
 dotnet run
-dotnet watch run
 dotnet watch run --project Winxes/

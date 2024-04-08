@@ -57,7 +57,7 @@
     "Numero":"Roxy",
     "Descricao": "Roxy é do planeta Terra. Ela tem o poder sobre os animais. Ela pode sentir o que eles sentem, possuindo uma forma de empatia para com eles, e pode acalmá-los, se eles estão com medo, mágoa ou raiva.",
     "Especie": "Fada dos Animais",
-    "Tipo": [ "" ],
+    "Tipo": [ "Fauna" ],
     "Altura": 1.65,
     "Imagem": "\\img\\winx\\007.png"
   },

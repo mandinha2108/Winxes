@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\Winxes\\Winxes\\Winxes.csproj": {}
+    "C:\\Users\\etec\\Desktop\\Winxes\\winxes\\Winxes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\Winxes\\Winxes\\Winxes.csproj": {
+    "C:\\Users\\etec\\Desktop\\Winxes\\winxes\\Winxes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Winxes\\Winxes\\Winxes.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Winxes\\winxes\\Winxes.csproj",
         "projectName": "Winxes",
-        "projectPath": "C:\\Users\\etec\\Desktop\\Winxes\\Winxes\\Winxes.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\Winxes\\winxes\\Winxes.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\Winxes\\Winxes\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\Winxes\\winxes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
