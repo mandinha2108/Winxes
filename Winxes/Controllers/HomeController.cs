@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Winxes.Models;
 
@@ -15,7 +16,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        List<Winx> winx = [];
+        using (StreamReader leitor = new("Data\\winx.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            winx = JsonSerializer.Deserialize<List<Winx>>(dados);
+        }
+        return View(winx);
     }
 
     public IActionResult Privacy()
