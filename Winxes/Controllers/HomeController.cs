@@ -32,12 +32,21 @@ public class HomeController : Controller
         return View(winx);
     }
 
-public IActionResult Details(int id)
-{
+    public IActionResult Details(int id)
+    {
         List<Winx> winx = [];
+        using(StreamReader leitor = new("Data\\winx.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            winx = JsonSerializer.Deserialize<List<Winx>(dados);
+        }
+        ViewData["Tipos"] = tipos;
+        var winx  = winx
+           .Where(p => p.Numero == id)
+           .FirtsOrDefault();
+        return View(winx);
+    }
 
-        return View();
-}
 
     public IActionResult Privacy()
     {
