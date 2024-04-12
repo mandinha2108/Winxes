@@ -22,8 +22,22 @@ public class HomeController : Controller
             string dados = leitor.ReadToEnd();
             winx = JsonSerializer.Deserialize<List<Winx>>(dados);
         }
+        List<Tipo> tipos = [];
+        using (StreamReader leitor = new("Data\\tipos.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            tipos = JsonSerializer.Deserialize<List<Tipo>>(dados);
+        }
+        ViewData["Tipos"] = tipos;
         return View(winx);
     }
+
+public IActionResult Details(int id)
+{
+        List<Winx> winx = [];
+
+        return View();
+}
 
     public IActionResult Privacy()
     {
