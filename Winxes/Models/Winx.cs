@@ -1,8 +1,10 @@
-namespace Winxes.Models
+namespace Winxes.Models;
+
+public class Winx
 {
-    public class Winx
-    {
         public int MyProperty {get; set; }
+
+        public int Numero {get; set; }
 
         public string Nome { get; set; }
 
@@ -12,8 +14,7 @@ namespace Winxes.Models
 
         public double Altura { get; set; }
 
-        public double Peso { get; set; }
+        public double Especie { get; set; }
 
         public string Imagem { get; set; }
-    }
 }

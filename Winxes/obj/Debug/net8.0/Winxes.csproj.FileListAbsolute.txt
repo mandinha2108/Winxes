@@ -27,5 +27,5 @@ C:\Users\etec\Desktop\Winxes\Winxes\obj\Debug\net8.0\refint\Winxes.dll
 C:\Users\etec\Desktop\Winxes\Winxes\obj\Debug\net8.0\Winxes.pdb
 C:\Users\etec\Desktop\Winxes\Winxes\obj\Debug\net8.0\Winxes.genruntimeconfig.cache
 C:\Users\etec\Desktop\Winxes\Winxes\obj\Debug\net8.0\ref\Winxes.dll
-C:\Users\etec\Desktop\Winxes\Winxes\bin\Debug\net8.0\Data\dados\tipos.json
-C:\Users\etec\Desktop\Winxes\Winxes\bin\Debug\net8.0\Data\dados\winx.json
+C:\Users\etec\Desktop\Winxes\Winxes\bin\Debug\net8.0\Data\tipos.json
+C:\Users\etec\Desktop\Winxes\Winxes\bin\Debug\net8.0\Data\winx.json
