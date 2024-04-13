@@ -9,9 +9,9 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> Logger)
     {
-        _logger = logger;
+        _logger = Logger;
     }
 
     public IActionResult Index()
@@ -27,7 +27,7 @@ public class HomeController : Controller
         List<Winx> winx = GetWinx();
         List<Tipo> tipos = GetTipos();
         DetailsVM details = new() {
-            Tipos = tipos;
+            Tipos = tipos,
             Atual = winx.FirstOrDefault(p => p.Numero == id),
             Anterior = winx.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
             Proximo = winx.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
@@ -39,8 +39,8 @@ public class HomeController : Controller
     {
         using (StreamReader leitor = new("Data\\winx.json"))
         {
-            string dado = leitor.ReadToEnd();
-            return JsonSerializer.Deserialize<List<Winx>> (dados);
+            string dados = leitor.ReadToEnd();
+            return JsonSerializer.Deserialize<List<Winx>>(dados);
         }
     }
 
