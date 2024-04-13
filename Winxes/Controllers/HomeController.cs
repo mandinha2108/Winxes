@@ -16,35 +16,41 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        List<Winx> winx = [];
-        using (StreamReader leitor = new("Data\\winx.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            winx = JsonSerializer.Deserialize<List<Winx>>(dados);
-        }
-        List<Tipo> tipos = [];
-        using (StreamReader leitor = new("Data\\tipos.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            tipos = JsonSerializer.Deserialize<List<Tipo>>(dados);
-        }
+        List<Winx> winx = GetWinx();
+        List<Tipo> tipos = GetTipos();
         ViewData["Tipos"] = tipos;
         return View(winx);
     }
 
     public IActionResult Details(int id)
     {
-        List<Winx> winx = [];
-        using(StreamReader leitor = new("Data\\winx.json"))
+        List<Winx> winx = GetWinx();
+        List<Tipo> tipos = GetTipos();
+        DetailsVM details = new() {
+            Tipos = tipos;
+            Atual = winx.FirstOrDefault(p => p.Numero == id),
+            Anterior = winx.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
+            Proximo = winx.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
+        };
+        return View(details);
+    }
+
+    private List<Winx> GetWinx()
+    {
+        using (StreamReader leitor = new("Data\\winx.json"))
+        {
+            string dado = leitor.ReadToEnd();
+            return JsonSerializer.Deserialize<List<Winx>> (dados);
+        }
+    }
+
+    private List<Tipo> GetTipos()
+    {
+        using (StreamReader leitor = new("Data\\tipos.json"))
         {
             string dados = leitor.ReadToEnd();
-            winx = JsonSerializer.Deserialize<List<Winx>(dados);
+            return JsonSerializer.Deserialize<List<Tipo>>(dados);
         }
-        ViewData["Tipos"] = tipos;
-        var winx  = winx
-           .Where(p => p.Numero == id)
-           .FirtsOrDefault();
-        return View(winx);
     }
 
 
