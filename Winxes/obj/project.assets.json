@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\uu\\.nuget\\packages\\": {}
+    "C:\\Users\\Furtado\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uu\\Desktop\\Winxes\\Winxes\\Winxes.csproj",
+      "projectUniqueName": "C:\\Users\\Furtado\\OneDrive\\Área de Trabalho\\Winxes\\Winxes\\Winxes.csproj",
       "projectName": "Winxes",
-      "projectPath": "C:\\Users\\uu\\Desktop\\Winxes\\Winxes\\Winxes.csproj",
-      "packagesPath": "C:\\Users\\uu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uu\\Desktop\\Winxes\\Winxes\\obj\\",
+      "projectPath": "C:\\Users\\Furtado\\OneDrive\\Área de Trabalho\\Winxes\\Winxes\\Winxes.csproj",
+      "packagesPath": "C:\\Users\\Furtado\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Furtado\\OneDrive\\Área de Trabalho\\Winxes\\Winxes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\uu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Furtado\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
