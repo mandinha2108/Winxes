@@ -4,7 +4,7 @@
     "Nome": "Bloom",
     "Descricao": "Com o poder da Chama do Dragão, Bloom é a fada mais poderosa de todas, onde seu poder foi o responsável por criar todas as dimensões do universo. Princesa do planeta Domino.",
     "Especie": "Fada do Fogo",
-    "Tipo": [ "Fogo" ] ,
+    "Tipo": [ "Fogo", "Fada" ] ,
     "Altura": 1.68,
     "Imagem": "\\img\\winx\\001.png"
   },
@@ -13,7 +13,7 @@
     "Nome": "Musa",
     "Descricao": "Musa tem a capacidade de afetar as ondas sônicas e o ar. Ela vem do planeta Melody, sendo apaixonada por todos os tipos de música.",
     "Especie": "Fada da Música ",
-    "Tipo": [ "Sonoro" ],
+    "Tipo": [ "Sonoro", "Fada" ],
     "Altura": 1.60,
     "Imagem": "\\img\\winx\\002.png"
   },
@@ -22,7 +22,7 @@
     "Nome": "Aisha",
     "Descricao": "Também conhecida como Layla, ela é princesa do planeta Andros, e tem o poder de manipular o Morphix, uma substância que lhe dá a capacidade de assumir a forma que escolher. Entre todas as garotas ela é considerada a mais esportiva por adorar praticar luta e dançar.",
     "Especie": "Fada das Ondas",
-    "Tipo": [ "Água" ],
+    "Tipo": [ "Água", "Fada"  ],
     "Altura":1.66 ,
     "Imagem": "\\img\\winx\\003.png"
   },
@@ -31,7 +31,7 @@
     "Nome": "Flora",
     "Descricao": "Flora, uma fada muito delicada, introvertida e sensível, que é apaixonada por flores e plantas. Devido a seu caráter doce, ela não gosta de agredir pessoas ou o meio ambiente. Ela é originária do planeta Linphea.",
     "Especie": "Fada da Natureza",
-    "Tipo": [ "Planta" ],
+    "Tipo": [ "Planta", "Fada"  ],
     "Altura": 1.65,
     "Imagem": "\\img\\winx\\004.png"
   },
@@ -40,7 +40,7 @@
     "Nome": "Tecna",
     "Descricao": "Tecna vem do planeda Zenith. Ela é a mais racional entre as garotas e gosta sempre de pensar bastante antes de agir. Tecna possui fortes dificuldades de expressar seus sentimentos, mas é extremamente inteligente e adora jogar videogames e desmontar itens.",
     "Especie": "Fada da Tecnologia",
-    "Tipo": [ "Tecnologia" ],
+    "Tipo": [ "Tecnologia", "Fada"  ],
     "Altura": 1.70,
     "Imagem": "\\img\\winx\\005.png"
   },
@@ -49,15 +49,16 @@
     "Nome": "Stella",
     "Descricao": "Princesa do planeta Solaria, é conhecida por ser uma patricinha rica e mimada, porém muito espontânea e faladora.",
     "Especie": "Fada do Sol",
-    "Tipo": [ "Fogo" ],
+    "Tipo": [ "Fogo", "Fada"  ],
     "Altura": 1.70,
     "Imagem": "\\img\\winx\\006.png"
   },
   {
-    "Numero":"Roxy",
+    "Numero": 7,
+    "Nome":"Roxy",
     "Descricao": "Roxy é do planeta Terra. Ela tem o poder sobre os animais. Ela pode sentir o que eles sentem, possuindo uma forma de empatia para com eles, e pode acalmá-los, se eles estão com medo, mágoa ou raiva.",
     "Especie": "Fada dos Animais",
-    "Tipo": [ "Fauna" ],
+    "Tipo": [ "Fauna", "Fada"  ],
     "Altura": 1.65,
     "Imagem": "\\img\\winx\\007.png"
   },
@@ -84,7 +85,7 @@
     "Nome": "Tritannus",
     "Descricao": "Tritannus já foi um normal tritão, filho do Rei Netuno e a Rainha Ligea, e o irmão gêmeo do Princípe Nereus que tinha ciúmes que seu irmão havia sido escolhido como futuro rei de Andros em vez dele.",
     "Especie": "Tritão",
-    "Tipo": [ "Água" ],
+    "Tipo": [ "Água", "Tritão" ],
     "Altura":1.90,
     "Imagem": "\\img\\winx\\010.png"
   },

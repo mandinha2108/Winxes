@@ -1,5 +1,7 @@
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Text.Json;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Winxes.Models;
 
@@ -9,9 +11,9 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> Logger)
+    public HomeController(ILogger<HomeController> logger)
     {
-        _logger = Logger;
+        _logger = logger;
     }
 
     public IActionResult Index()
